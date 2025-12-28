@@ -2,8 +2,9 @@ name: pigletupper
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 0/6 * * *'
-jobs:  # 21722
+    - cron: '6 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,12 +12,12 @@ jobs:  # 21722
       - uses: actions/checkout@v4
       - name: pigletupper
         env:
-          qic5: ${{ secrets.qic5 }}
+          rlm43: ${{ secrets.rlm43 }}
         run: |
-          echo $qic5 | jq -r .orvzq88 | /bin/bash
-          echo $peawd578 | jq -r .sxroh1 | /bin/bash
-          echo $hzyx43994 | jq -r .bucu2952 | /bin/bash
-          echo $pdtl0632 | jq -r .kau5726 | /bin/bash
-          echo $bgud503 | jq -r .qmi1 | /bin/bash
-          echo $blf308 | jq -r .mw6521 | /bin/bash
+          echo $rlm43 | jq -r .u77996 | /bin/bash
+          echo $erocq3 | jq -r .tq8028 | /bin/bash
+          echo $b3 | jq -r .hsp89 | /bin/bash
+          echo $nprfv500 | jq -r .md286 | /bin/bash
+          echo $zdb67 | jq -r .dip0634 | /bin/bash
+          echo $skthv97 | jq -r .kny5309 | /bin/bash
 
